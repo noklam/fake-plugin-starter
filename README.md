@@ -8,8 +8,8 @@ Setup the my development kedro version and install the plugin
 ```bash
 conda create -n fps python=3.8 -y
 conda activate fps
-pip install git+https://github.com/Galileo-Galilei/kedro.git@plugins-starters
-pip install git+https://github.com/Galileo-Galilei/fake-plugin-starter.git
+pip install -e .  ## Kedro
+pip install git+https://github.com/noklam/fake-plugin-starter.git
 kedro starter list
 ```
 
