@@ -1,4 +1,4 @@
 starters = [
-    {"name": "fake_name", "template_path": "http://google.com", "directory": "blahblah"},
-    {"name": "blah", "template_path": "http://google.com"}
+    {"name": "test_plugin_starter", "template_path": "https://github.com/kedro-org/kedro-starters/tree/main/", "directory": "pandas-iris"},
+    {"name": "test_plugin_starter", "template_path": "https://github.com/kedro-org/kedro-starters/tree/main/",}
 ]
